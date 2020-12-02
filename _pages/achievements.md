@@ -9,6 +9,7 @@ Below are list of some companies I have successfully reported bugs through their
 
  - [United Nations](https://unite.un.org/content/hall-fame)
  - [Alibaba](https://security.alibaba.com/top.htm?tab=1)
+ - [Naver](https://bugbounty.naver.com/ko/halloffame_2019)
  - [Sophos](https://www.sophos.com/en-us/legal/sophos-responsible-disclosure-policy/thanks.aspx) 
  - [Honeywell](https://www.honeywell.com/us/en/product-security#language4/)
  - [Opera](https://security.opera.com/hall-of-fame/)
