@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "hexlab"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Aagam Shah (neutrinoguy)"
+name                     : "Aagam Shah"
 description              : "Yet another blog on infosec experiments. Bugs 🐞 and Shrugs 🤷"
 url                      : "https://hexlab.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aagam Shah"
+  name             : "Aagam Shah (neutrinoguy)"
   avatar           : "/assets/images/dragon.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Yet another blog on infosec experiments. Bugs 🐞 and Shrugs 🤷" 
   location         : "Earth 🌏"
