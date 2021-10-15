@@ -33,10 +33,10 @@ comments:
   provider               : "giscus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   
   giscus:
-    repo_id              : "MDEwOlJlcG9zaXRvcnkzMTY4ODkzODM=" # Shown during giscus setup at https://giscus.app
-    category_name   : "General" # Full text name of the category
-    category_id         : "DIC_kwDOEuNZJ84B_bmz" # Shown during giscus setup at https://giscus.app
-    discussion_term   : "url" # "pathname" (default), "url", "title", "og:title"
+    repo_id               : "MDEwOlJlcG9zaXRvcnkzMTY4ODkzODM=" # Shown during giscus setup at https://giscus.app
+    category_name    : "General" # Full text name of the category
+    category_id          : "DIC_kwDOEuNZJ84B_bmz" # Shown during giscus setup at https://giscus.app
+    discussion_term    : "pathname" # "pathname" (default), "url", "title", "og:title"
     reactions_enabled : "1" # '1' for enabled (default), '0' for disabled
     theme                  : "dark_dimmed" # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   disqus:
