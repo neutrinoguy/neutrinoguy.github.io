@@ -6,6 +6,8 @@ main:
      url: /certs/
    - title: "Achievements"
      url: /achievements/
+   - title: "CVE"
+     url: /advisories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
