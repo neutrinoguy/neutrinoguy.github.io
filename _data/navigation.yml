@@ -1,13 +1,13 @@
 # main links
 main:
-   - title: "About"
-     url: /about/
    - title: "Certs"
      url: /certs/
-   - title: "Achievements"
-     url: /achievements/
    - title: "CVE"
      url: /advisories/
+   - title: "About"
+     url: /about/
+   - title: "Achievements"
+     url: /achievements/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
