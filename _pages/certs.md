@@ -20,6 +20,6 @@ Below are the certifications I have achieved till date.
 
 ![IC33 Badge](/assets/cert/iecic33.png)
 
-4) [Certified Ethical Hacker (C|EH)](https://aspen.eccouncil.org/Verify)
+4) [Certified Ethical Hacker C&#124;EH](https://aspen.eccouncil.org/Verify)
 
 ![CEH Badge](/assets/cert/ceh.png) 
