@@ -18,4 +18,8 @@ Below are the certifications I have achieved till date.
 
 3) [ISA/IEC 62443 Cybersecurity Risk Assessment Specialist](https://bcert.me/snthcbysv)
 
-![IC33 Badge](/assets/cert/iecic33.png) 
+![IC33 Badge](/assets/cert/iecic33.png)
+
+4) [Certified Ethical Hacker (C|EH)](https://aspen.eccouncil.org/Verify)
+
+![CEH Badge](/assets/cert/ceh.png) 
