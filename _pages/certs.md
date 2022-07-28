@@ -26,4 +26,4 @@ Below are the certifications I have achieved till date.
 
 5) [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/4c5af321-b0e9-4a99-a4a6-03fd20b8f2b5/public_url)
 
-![AZ-900 Badge](/assets/cert/az900.png)
+![AZ-900 Badge](/assets/cert/az-900.png)
