@@ -23,3 +23,7 @@ Below are the certifications I have achieved till date.
 4) [Certified Ethical Hacker C&#124;EH](https://aspen.eccouncil.org/Verify)
 
 ![CEH Badge](/assets/cert/ceh.png) 
+
+5) [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/4c5af321-b0e9-4a99-a4a6-03fd20b8f2b5/public_url)
+
+![AZ-900 Badge](/assets/cert/az900.png)
