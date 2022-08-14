@@ -17,20 +17,19 @@ tags:
 
 
 The challenge description was as below provided with the challenge IP address.
- 
+
 ![Cloud 9*9 challenge](/assets/postimages/4/ss0.png)
 
 Two things I assumed from the description is that it is a serverless calculator hosted onto a cloud service provider. First thing I did was to check IP information for the provided IP address. 
 
-https://ipinfo.io/3.64.214.139 
+[https://ipinfo.io/3.64.214.139](https://ipinfo.io/3.64.214.139) 
 
 From above I can understand that the challenge service is hosted on AWS EU region. Now, I went to look the challenge service page. It looked like below where we can do normal calculator operations. 
 
 ![Cloud 9*9](/assets/postimages/4/ss6.png)
 
-Next, I took this request in our very own Burp suite proxy to evaluate it further. I added "*" as input to check how server responds to special characters. Below was the response. 
-
-``` JSON
+Next, I took this request in our very own Burp suite proxy to evaluate it further. I added "*" as input to check how server responds to special characters. Below was the response.
+```JSON
 
 HTTP/1.1 200 OK
 Server: Werkzeug/2.1.2 Python/3.8.10
@@ -40,7 +39,6 @@ Content-Length: 267
 Connection: close
 
 {"errorMessage":"unexpected EOF while parsing (<string>, line 1)","errorType":"SyntaxError","requestId":"809fbfb0-e311-41cb-971c-32ad50e71be1","stackTrace":["  File \"/var/task/lambda-function.py\", line 5, in lambda_handler\n    'result' : eval(event['input'])\n"]}
-
 ```
 
 I can guess a few things by analysing the response from server that backend is running on Python Werkzeug. The calculation was being done by lambda-function.py file and it was using eval() function. 
@@ -88,7 +86,7 @@ As this is a cloud challenge the flag was on a AWS S3 Storage bucket. It was req
  
  We are able to get AWS credentials. So it becomes easy to get the flag from S3 Bucket using AWS CLI. I followed this S3 bucket docs to fetch the flag. 
 
-https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html 
+[https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html) 
 
 ![AWS creds](/assets/postimages/4/ss3.png)
 
