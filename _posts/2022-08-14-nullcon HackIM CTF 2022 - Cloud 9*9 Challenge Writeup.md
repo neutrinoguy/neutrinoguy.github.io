@@ -13,7 +13,7 @@ tags:
   - AWS
 ---
 
-[nullcon HackIM CTF](https://ctf.nullcon.net/) had cloud challenge category this year. Cloud 9*9 was one the challenges in that category. This post describes my thought process and how I solved it.
+[nullcon HackIM CTF](https://ctf.nullcon.net/) had cloud challenge category this year. Cloud 9*9 was one of the challenges in that category. This post describes my thought process and how I solved it.
 
 
 The challenge description was as below provided with the challenge IP address.
