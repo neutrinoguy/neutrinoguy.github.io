@@ -27,3 +27,15 @@ Below are the certifications I have achieved till date.
 5) [Microsoft Certified: Azure Fundamentals](https://www.credly.com/badges/4c5af321-b0e9-4a99-a4a6-03fd20b8f2b5/public_url)
 
 ![AZ-900 Badge](/assets/cert/az-900-badge.png)
+
+6) [ISA/IEC Cybersecurity Design Specialist](https://bcert.me/sdiqpcnwo)
+
+![IC34 Badge](/assets/cert/iecic34.png)
+
+7) [ISA/IEC Cybersecurity Maintenance Specialist](https://bcert.me/schqqanvj)
+
+![IC37 Badge](/assets/cert/iecic37.png)
+
+8) [ISA/IEC Cybersecurity Expert](https://bcert.me/svurrrwsd)
+
+![ISA Expert Badge](/assets/cert/isaexpert.png)
