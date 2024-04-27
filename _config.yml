@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "hexlab"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "0xff-प्रयोगशाला" # site tagline that appears below site title in masthead
 name                     : "Aagam Shah"
 description              : "Yet another blog on infosec experiments. Bugs 🐞 and Shrugs 🤷"
 url                      : "https://hexlab.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
