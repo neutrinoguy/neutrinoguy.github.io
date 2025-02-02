@@ -12,11 +12,11 @@ Below are the certifications I have achieved till date.
 
 ![Docker Certified Associate Logo](/assets/cert/dca.jpg)
 
-2) [ISA/IEC 62443 Cybersecurity Fundamentals Specialist](https://bcert.me/selfwqhiq) 
+2) [ISA/IEC 62443 Cybersecurity Fundamentals Specialist](https://bcert.me/sgfaergoz) 
 
 ![IC32 Badge](/assets/cert/iecic32.png)
 
-3) [ISA/IEC 62443 Cybersecurity Risk Assessment Specialist](https://bcert.me/snthcbysv)
+3) [ISA/IEC 62443 Cybersecurity Risk Assessment Specialist](https://bcert.me/smzjqubnu)
 
 ![IC33 Badge](/assets/cert/iecic33.png)
 
