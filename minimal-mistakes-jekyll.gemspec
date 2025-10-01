@@ -1,9 +1,11 @@
-# coding: utf-8
+require "json"
+
+# package_json = JSON.parse(File.read("package.json"))
 
 Gem::Specification.new do |spec|
   spec.name                    = "minimal-mistakes-jekyll"
-  spec.version                 = "4.20.1"
-  spec.authors                 = ["Michael Rose"]
+  spec.version                 =  "4.27.3"
+  spec.authors                 = ["Michael Rose", "iBug"]
 
   spec.summary                 = %q{A flexible two-column Jekyll theme.}
   spec.homepage                = "https://github.com/mmistakes/minimal-mistakes"

@@ -113,8 +113,8 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "X (aka Twitter)"
+      icon: "fab fa-brands fa-x-twitter"
       url: "https://twitter.com/neutrinoguy"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -128,13 +128,19 @@ author:
     - label: "Medium"
       icon: "fab fa-fw fa-medium"
       url: "https://neutrinoguy.medium.com"
+    - label: "Linktree"
+      icon: "fab fa-brands fa-linktree"
+      url: "https://linktr.ee/neutrinoguy"
+    - label: "LinkedIN"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://linkedin.com/in/neutrinoguy"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/neutrinoguy"
+      icon: "fab fa-brands fa-x-twitter"
+      url: "https://x.com/neutrinoguy"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
