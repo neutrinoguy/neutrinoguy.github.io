@@ -6,7 +6,7 @@ backend:
   auth_endpoint: api/auth
 
 # Uncomment if you want to use editorial workflow
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: "assets/images/interesting"
 public_folder: "/assets/images/interesting"
