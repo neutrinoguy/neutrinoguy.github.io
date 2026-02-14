@@ -1,0 +1,108 @@
+<div class="social-share-buttons">
+    <!-- Twitter/X -->
+    <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ page.url | absolute_url | url_encode }}"
+        target="_blank" rel="noopener noreferrer" class="share-btn twitter" title="Share on Twitter">
+        <i class="fab fa-twitter"></i> Twitter
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" target="_blank"
+        rel="noopener noreferrer" class="share-btn facebook" title="Share on Facebook">
+        <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}"
+        target="_blank" rel="noopener noreferrer" class="share-btn linkedin" title="Share on LinkedIn">
+        <i class="fab fa-linkedin-in"></i> LinkedIn
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+        target="_blank" rel="noopener noreferrer" class="share-btn whatsapp" title="Share on WhatsApp">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+
+    <!-- Reddit -->
+    <a href="https://reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}"
+        target="_blank" rel="noopener noreferrer" class="share-btn reddit" title="Share on Reddit">
+        <i class="fab fa-reddit-alien"></i> Reddit
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:?subject={{ page.title | url_encode }}&body={{ page.url | absolute_url | url_encode }}"
+        class="share-btn email" title="Share via Email">
+        <i class="fas fa-envelope"></i> Email
+    </a>
+
+    <!-- Copy Link -->
+    <button onclick="copyToClipboard('{{ page.url | absolute_url }}')" class="share-btn copy-link" title="Copy Link">
+        <i class="fas fa-link"></i> Copy Link
+    </button>
+</div>
+
+<script>
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(function () {
+            alert('Link copied to clipboard!');
+        }, function (err) {
+            console.error('Could not copy text: ', err);
+        });
+    }
+</script>
+
+<style>
+    .social-share-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 20px 0;
+    }
+
+    .share-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 8px 16px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        transition: opacity 0.3s;
+        border: none;
+        cursor: pointer;
+    }
+
+    .share-btn:hover {
+        opacity: 0.8;
+    }
+
+    .share-btn.twitter {
+        background-color: #1DA1F2;
+    }
+
+    .share-btn.facebook {
+        background-color: #4267B2;
+    }
+
+    .share-btn.linkedin {
+        background-color: #0077B5;
+    }
+
+    .share-btn.whatsapp {
+        background-color: #25D366;
+    }
+
+    .share-btn.reddit {
+        background-color: #FF4500;
+    }
+
+    .share-btn.email {
+        background-color: #7f7f7f;
+    }
+
+    .share-btn.copy-link {
+        background-color: #6c757d;
+    }
+</style>

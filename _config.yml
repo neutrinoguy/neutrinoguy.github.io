@@ -283,6 +283,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  interesting:
+    output: true
+    permalink: /shorts/:title/
+
 # Defaults
 defaults:
   # _posts
@@ -305,3 +311,16 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _interesting
+  - scope:
+      path: ""
+      type: interesting
+    values:
+      layout: interesting
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: false
+      show_date: true

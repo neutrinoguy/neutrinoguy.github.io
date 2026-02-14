@@ -8,6 +8,8 @@ main:
      url: /about/
    - title: "Achievements"
      url: /achievements/
+   - title: "Shorts"
+     url: /shorts/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

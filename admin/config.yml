@@ -1,0 +1,34 @@
+backend:
+  name: github
+  repo: neutrinoguy/neutrinoguy.github.io
+  branch: master # Adjusted based on your current branch
+  base_url: https://decap.hexlab.xyz
+  auth_endpoint: api/auth
+
+# Uncomment if you want to use editorial workflow
+# publish_mode: editorial_workflow
+
+media_folder: "assets/images/interesting"
+public_folder: "/assets/images/interesting"
+
+collections:
+  - name: "interesting"
+    label: "Interesting Posts"
+    folder: "_interesting"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      
+      # For excerpts, we want a simple text field but you can make it markdown too if you prefer
+      - {label: "Excerpt", name: "excerpt", widget: "text", required: false}
+      
+      # The detailed post content
+      - {label: "Body", name: "body", widget: "markdown"}
+
+      # We can set default fields like layout and comments (which we control via _config.yml)
+      # Since Decap CMS modifies the frontmatter, it's good to be explicit for new posts
+      - {label: "Layout", name: "layout", widget: "hidden", default: "interesting"}
+      - {label: "Author Profile", name: "author_profile", widget: "boolean", default: true}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
